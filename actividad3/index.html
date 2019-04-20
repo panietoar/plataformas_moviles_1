@@ -6,41 +6,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Actividad 3 - Pablo Nieto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <style>
+    body {
+      background-color: #e7e7e7;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .container {
+      background-color: white;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, .4);
+    }
+    
+    ul {
+      list-style-type: disc;
+      margin-left: 14px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Actividad 3 - Pablo Arturo Nieto </h1>
-  <h2>Análisis comparativo entre tipos de APPS.</h2>
+  <main class="section">
+    <div class="container">
 
-  <section class="punto">
-    <h3>1. Ventajas y desventajas de tipos de apps</h3>
-    <table class="tabla">
-      <thead>
-        <tr>
-          <th></th>
-          <th>ventajas</th>
-          <th>desventajas</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>nativa</td>
-          <td>ventajas nativa</td>
-          <td>desventajas nativa</td>
-        </tr>
-        <tr>
-          <td>web</td>
-          <td>ventajas web</td>
-          <td>desventajas web</td>
-        </tr>
-        <tr>
-          <td>h&iacute;brida</td>
-          <td>ventajas h&iacute;brida</td>
-          <td>desventajas h&iacute;brida</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+      <section class="titulo section">
+        <h1 class="title">Actividad 3 - Pablo Arturo Nieto </h1>
+        <h2 class="subtitle">Análisis comparativo entre tipos de APPS.</h2>
+      </section>
+
+      <section class="section comercializacion">
+
+        <h3 class="subtitle">1. Ventajas y desventajas de tipos de apps</h3>
+        <table class="table is-striped is-fullwidth is-bordered">
+          <thead>
+            <tr>
+              <th>Tipo de App</th>
+              <th>Ventajas</th>
+              <th>Desventajas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Nativa</th>
+              <td>
+                <ul>
+                  <li>Puede acceder a todas las funcionalidades del dispositivo.</li>
+                  <li>Funcionan offline.</li>
+                  <li>Son superiores gr&aacute;ficamente a las otras por aprovechar su plataforma.</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Debe ser desarrollada exclusivamente para un OS.</li>
+                  <li>Requiere mucho tiempo y dinero para desarrollar.</li>
+                  <li>Su c&oacute;digo no puede ser usado en otras plataformas.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Web</th>
+              <td>
+                <ul>
+                  <li>No requiere procesos complejos de actualizaci&oacute;n.</li>
+                  <li>Se puede usar el mismo c&oacute;digo fuente para todas las plataformas.</li>
+                  <li>Es sencillo y barato de desarrollar.</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>No puede usar las funcionalidades de cada dispositivo.</li>
+                  <li>No puede ser usada sin conexi&oacute;n a internet.</li>
+                  <li>No se puede promocionar en los app stores.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>H&iacute;brida</th>
+              <td>
+                <ul>
+                  <li>Pueden acceder a casi todas las funcionalidades del dispositivo.</li>
+                  <li>Se puede usar el mismo c&oacute;digo fuente en todas las plataformas.</li>
+                  <li>Se pueden promocionar en los app stores.</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Algunas caracter&iacute;sticas no pueden ser compartidas entre plataformas.</li>
+                  <li>Gr&aacute;ficamente son inferiores a las apps nativas.</li>
+                  <li>Inconsistencias entre plataformas.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section tipos-app">
+
+        <h3 class="subtitle">2. Modelos de comercializaci&oacute;n</h3>
+        <table class="table is-striped is-fullwidth is-bordered">
+          <thead>
+            <tr>
+              <th>Modelo</th>
+              <th>caracter&iacute;sticas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Gratuito</th>
+              <td>
+                <ul>
+                  <li>Puede ser monetizado mediante anuncios (ads).</li>
+                  <li>Al ser gratis, muchos usuarios prefieren descargarla.</li>
+                  <li>No se obtiene ganancia directamente de los usuarios.</li>
+                  <li>Requiere una gran cantidad de usuarios para generar ganancias sustanciales.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Pago</th>
+              <td>
+                <ul>
+                  <li>Se paga una vez por descarga.</li>
+                  <li>Genera ganancias directamente de los usuarios.</li>
+                  <li>Se debe ofrecer un buen producto, o la gente no querr&aacute; pagarlo.</li>
+                  <li>Se debe promocionar muy bien.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Subscripci&oacute;n</th>
+              <td>
+                <ul>
+                  <li>Genera de ganancias de forma regular.</li>
+                  <li>Permite la promoci&oacute;n por medio de "Free trial".</li>
+                  <li>Muy buen modelo para apps que promuevan el uso recurrente.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Freemium</th>
+              <td>
+                <ul>
+                  <li>La descarga es gratis pero cuenta con contenido que se obtiene mediante pago.</li>
+                  <li>Se debe mantener a los usuarios interesados en adquirir el contenido pago.</li>
+                  <li>Genera buenas ganancias si se tiene una base de usuarios grande.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <footer class="footer">
+        <h3 class="subtitle">Referencias:</h3>
+        <ul>
+          <li>Raluca Budiu. (2013). Mobile: Native Apps, Web Apps, and Hybrid Apps. 2016, de Nielsen Norman Group, Sitio web: <a href="https://www.nngroup.com/articles/mobile-native-apps/">https://www.nngroup.com/articles/mobile-native-apps/</a></li>
+          <li>Dan Kosir. (2018). Choosing The Right Mobile App Monetization Strategy. 2018, de Clear Bridge Mobile, Sitio web: <a href="https://clearbridgemobile.com/choosing-the-right-app-monetization-strategy/">https://clearbridgemobile.com/choosing-the-right-app-monetization-strategy/</a></li>
+        </ul>
+      </footer>
+    </div>
+  </main>
 </body>
 
 </html>
